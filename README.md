@@ -4,6 +4,8 @@ This is a quick and dirty docker container for [MoveOn's spoke application](http
 
 It will automatically set up postgres, sshd, samba, tmux, vim and zile (emacs-mini).
 
+When you launch the container, you'll have a running, browsable spoke server.  You can mount the source directly via SAMBA/Windows File Sharing.
+
 ## Instructions
 
 1. Set up docker or docker-machine
