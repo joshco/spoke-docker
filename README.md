@@ -2,6 +2,8 @@
 
 This is a quick and dirty docker container for [MoveOn's spoke application](https://github.com/MoveOnOrg/Spoke)
 
+It will automatically set up postgres, sshd, samba, tmux, vim and zile (emacs-mini).
+
 ## Instructions
 
 1. Set up docker or docker-machine
@@ -17,10 +19,17 @@ This is a quick and dirty docker container for [MoveOn's spoke application](http
 
 Point your favorite browser at `http://<dockerIP>:3400/`
 
+## Connect via SSH
+
+`ssh -p 222 node@<dockerIP>`
+
 ## Connect via Postgres PGadmin
 
 connect to host `<dockerIP>` on port `55432`
 
+## Notes
+
+The container user account is `node` and the password is `node`
 
 
 
