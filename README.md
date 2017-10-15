@@ -1,6 +1,6 @@
 # Spoke Docker for development
 
-This is a quick and dirty docker container for MoveOn's spoke application
+This is a quick and dirty docker container for [MoveOn's spoke application](https://github.com/MoveOnOrg/Spoke)
 
 ## Instructions
 
@@ -20,7 +20,7 @@ Point your favorite browser at http://<dockerIP>:3400/
 ## Connect via Postgres PGadmin
 
 connect to host <dockerIP> on port 55432
-	
+
 
 
 
