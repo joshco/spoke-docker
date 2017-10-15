@@ -12,7 +12,7 @@ When you launch the container, you'll have a running, browsable spoke server.  Y
 
 1. Set up docker or docker-machine
 2. Learn your docker IP address (local machine if docker is local)
-2. cp .env-docker .env
+2. `cp .env-docker .env`
 3. Customize your env according to MoveOn instructions, using your docker host IP
 4. run `./build-docker`
 5. run `./launch-docker`
