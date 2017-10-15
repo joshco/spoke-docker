@@ -33,6 +33,15 @@ Point your favorite browser at `http://<dockerIP>:3400/`
 
 connect to host `<dockerIP>` on port `55432`
 
+## Data Persistence
+
+When launching the container, two docker persistent volumes will be used.
+1. spoke-src - Contains the entire Spoke directory (not just the src)
+2. spoke-data - Contains Postgres data files
+
+This allows your source and data to persist in between container starts and stops.  
+If you want to start completely fresh, you can delete these containers.  When you next start the container, you'll have what the image was build with.  That's the github clone commit version, and postgres will be setup but without data.
+
 ## Notes
 
 The container user account is `node` and the password is `node`

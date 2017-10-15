@@ -4,5 +4,7 @@ sudo /etc/init.d/postgresql start
 sudo /usr/sbin/sshd
 sudo /etc/init.d/smbd start
 
+cd Spoke
+
 npm run dev
 

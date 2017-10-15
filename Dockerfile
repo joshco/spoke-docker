@@ -13,6 +13,7 @@ RUN echo "node:node" | chpasswd
 RUN usermod -aG sudo node
 RUN echo "node ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/node
 
+
 COPY smbpass .
 
 RUN cat smbpass | smbpasswd -as node
@@ -40,6 +41,7 @@ WORKDIR /home/node
 
 RUN git clone https://github.com/MoveOnOrg/Spoke.git
 
+
 EXPOSE 139
 EXPOSE 445
 
@@ -48,9 +50,10 @@ WORKDIR /home/node/Spoke
 COPY .env .
 
 RUN npm install
+VOLUME /home/node/Spoke
 
+WORKDIR /home/node
 COPY start_container_services .
-
 CMD ./start_container_services
 
 

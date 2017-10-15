@@ -1,2 +1,2 @@
 #!/bin/bash
- docker run -i -t -p 3400:3000 -p 55432:5432 -p 222:22 -p 445:445 -p 139:139 spoke
+ docker run -i -t -p 3400:3000 -p 55432:5432 -p 222:22 -p 445:445 -p 139:139 --volume spoke-src:/home/node/Spoke --volume spoke-data:/var/lib/postgresql spoke
