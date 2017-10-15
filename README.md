@@ -13,7 +13,14 @@ This is a quick and dirty docker container for MoveOn's spoke application
 6. Mount the container's source directory back to your local machine for local editing
 > Eg, in windows map `\\<dockerIP>\spokesrc` to S:
 
+## Browsing
 
+Point your favorite browser at http://<dockerIP>:3400/
+
+## Connect via Postgres PGadmin
+
+connect to host <dockerIP> on port 55432
+	
 
 
 
