@@ -21,6 +21,9 @@ When you launch the container, you'll have a running, browsable spoke server.  Y
 
 Point your favorite browser at `http://<dockerIP>:3400/`
 
+### Startup time
+> The container may take some time to start up, and for node to prepare itself.  So if you connect too early, you may see proxy errors.
+
 ## Connect via SSH
 
 `ssh -p 222 node@<dockerIP>`
