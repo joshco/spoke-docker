@@ -15,11 +15,11 @@ This is a quick and dirty docker container for [MoveOn's spoke application](http
 
 ## Browsing
 
-Point your favorite browser at http://<dockerIP>:3400/
+Point your favorite browser at `http://<dockerIP>:3400/`
 
 ## Connect via Postgres PGadmin
 
-connect to host <dockerIP> on port 55432
+connect to host `<dockerIP>` on port `55432`
 
 
 
