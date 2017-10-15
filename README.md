@@ -1,5 +1,7 @@
 # Spoke Docker for development
 
+`Josh Cohen` @joshco
+
 This is a quick and dirty docker container for [MoveOn's spoke application](https://github.com/MoveOnOrg/Spoke)
 
 It will automatically set up postgres, sshd, samba, tmux, vim and zile (emacs-mini).
