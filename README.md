@@ -17,7 +17,7 @@ When you launch the container, you'll have a running, browsable spoke server.  Y
 4. run `./build-docker`
 5. run `./launch-docker`
 6. Mount the container's source directory back to your local machine for local editing
-> Eg, in windows map `\\<dockerIP>\spokesrc` to S:
+> Eg, in windows map `\\<dockerIP>\spoke` to S:
 
 ## Browsing
 
